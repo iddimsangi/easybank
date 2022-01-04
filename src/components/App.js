@@ -55,23 +55,39 @@ function App() {
         <img src={logo} alt="logo" className="footerLogo"/>
         <ul className="App--footer--container1--socials">
           <li>
-          <img src={facebook} alt="facebook-icon"/>
+            <a href="#">
+            <img src={facebook} alt="facebook-icon"/>
+            </a>
+       
           </li>
           <li>
-          <img src={twitter} alt="twitter-icon"/>
-          </li>
-          <li>
+          <a href="#">
           <img src={youtube} alt="youtube-icon"/>
+              </a>
+       
           </li>
           <li>
-          <img src={pinrest} alt="pinrest-icon"/>
+          <a href="#">
+          <img src={twitter} alt="twitter-icon"/>
+              </a>
+         
           </li>
           <li>
+          <a href="#">
           <img src={pinrest} alt="pinrest-icon"/>
+              </a>
+     
+          </li>
+          <li>
+          <a href="#">
+          <img src={instagram} alt="instagram-icon"/>
+          {/* <svg path={instagram}></svg> */}
+              </a>
+         
           </li>
         </ul>
         </div>
-        <ul className="App--footer--container1--container2">
+        <ul className="App--footer--container2">
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Blog</a></li>
@@ -81,7 +97,7 @@ function App() {
           <li><a href="#">Suports</a></li>
           <li><a href="#">Private policy</a></li>
         </ul>
-        <div>
+        <div className="App--footer--container4">
           <a href="#" className="btn">Request Invite</a>
           <p>@EasyBank.All rights Reserved</p>
         </div>

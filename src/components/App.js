@@ -36,7 +36,7 @@ function App() {
             Take your financila life online. Your Easybank account will be a one
             stop-shop for spending saving. budgeting, investing and much more.
           </p>
-          <a className="btn App--nav-btn" href="#">
+          <a className="btn firstDv-btn" href="#">
             Request Invite
           </a>
         </div>

@@ -27,4 +27,29 @@
             background: linear-gradient(127deg,#27b34a,  hsl(192, 97%, 56%));
         }
     }
+
+    &--main{
+        width: 90%;
+        min-height: 100vh;
+        margin: 0 auto;
+        &-header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .firstDv{
+                // border: 1px solid red;
+                width: 40%;
+            }
+            .secondDv{
+                // width: 60%;
+                border: 1px solid orange;
+                img{
+                    height: 80%;
+                    width: 80%;
+                    float: right;
+                }
+            }
+        }
+    }
 }

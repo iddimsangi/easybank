@@ -1,4 +1,5 @@
 import logo from "../images/logo.svg";
+import phone from "../images/image-mockups.png";
 import "./App.scss";
 
 function App() {
@@ -27,7 +28,23 @@ function App() {
           Request Invite
         </a>
       </nav>
-      <main className="App--main"></main>
+      <main className="App--main">
+      <header className="App--main-header">
+        <div className="firstDv">
+          <h1>Next generation digital banking</h1>
+          <p>
+            Take your financila life online. Your Easybank account will be a one
+            stop-shop for spending saving. budgeting, investing and much more.
+          </p>
+          <a className="btn App--nav-btn" href="#">
+            Request Invite
+          </a>
+        </div>
+        <div className="secondDv">
+          <img src={phone} alt="phone" />
+        </div>
+      </header>
+      </main>
       <footer className="App--footer"></footer>
     </div>
   );

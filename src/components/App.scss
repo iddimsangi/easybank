@@ -1,86 +1,112 @@
-.App{
-.btn{
+.App {
+  .btn {
     color: hsl(0, 0%, 100%);
     padding: 1rem 2rem;
     border-radius: 20rem;
     // background-color:#50CF70;
-    background: linear-gradient(127deg,#27b34a,  hsl(192, 97%, 56%));
-}
-    &--nav{
+    background: linear-gradient(127deg, #27b34a, hsl(192, 97%, 56%));
+    transition: all 0.4s;
+  }
+  &--nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    &-logo {
+    }
+    &-navs {
+      li {
+        display: inline-block;
+        margin-left: 2rem;
+        a {
+          &:link,
+          &:visited {
+            font-size: 1.4rem;
+            transition: all 0.4s;
+            padding-bottom: 2.5rem;
+            border-bottom: 3px solid transparent;
+          }
+          &:hover,
+          &:active {
+            border-bottom: 2px solid #27b34a;
+            //    margin-bottom: ;
+          }
+        }
+        // overflow: hidden;
+      }
+    }
+    &-btn {
+      // border: 1px solid #50CF70;
+      width: 15rem;
+      transition: all .4s;
+      &:hover,
+      &:active {
+        background: linear-gradient(
+          #66d682e1,
+          hsla(192, 97%, 56%, 0.719)
+        );
+      }
+    }
+  }
+
+  &--main {
+    width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    &-header {
+      width: 100%;
+      display: flex;
+      .firstDv {
+        width: 40%;
         display: flex;
-        justify-content: space-around;
-        padding: 2rem;
-        align-items: center;
-        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-        &-logo{
+        margin-top: 10rem;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        h1 {
+          font-size: 3rem;
+          font-weight: 300;
+          margin-bottom: 2rem;
+          color: hsl(233, 26%, 24%);
+          width: 60%;
+        }
+        p {
+          font-size: 1.4rem;
+          font-weight: 300;
+          margin-bottom: 2rem;
+          // width: 60%;
+          color: hsl(233, 8%, 62%);
+        }
+        &-btn {
+          width: 15rem;
+          &:hover,
+          &:active {
+            background: linear-gradient(
+              #66d682e1,
+              hsla(192, 97%, 56%, 0.719)
+            );
+          }
+        }
+      }
+      .secondDv {
+        width: 60%;
+        // border: 1px solid orange;
+        overflow: hidden;
+        background-image: url(../images/bg-intro-desktop.svg);
+        background-position: 16rem -12.5rem;
+        background-size: 100vh;
+        background-repeat: no-repeat;
 
+        img {
+          // height:auto;
+          width: 70%;
+          float: right;
+          margin-right: -6rem;
+          margin-top: -9rem;
+          overflow: hidden;
         }
-        &-navs{
-            li{
-                display: inline-block;
-                margin-left: 2rem;
-                a{font-size: 1.4rem;}
-                // overflow: hidden;
-            }
-
-        }
-        &-btn{
-            // border: 1px solid #50CF70;
-            width: 15rem;
-           
-        }
+      }
     }
-
-    &--main{
-        width: 90%;
-        min-height: 100vh;
-        margin: 0 auto;
-        &-header{
-            width: 100%;
-            display: flex;
-            .firstDv{
-                width: 40%;
-                display: flex;
-                margin-top: 10rem;
-                flex-direction: column;
-                // align-items: center;
-                // justify-content: center;
-                h1{
-                    font-size: 3rem;
-                    font-weight: 300;
-                    margin-bottom: 2rem;
-                    color: hsl(233, 26%, 24%);
-                    width: 60%;
-                }
-                p{
-                    font-size: 1.4rem;
-                    font-weight: 300;
-                    margin-bottom: 2rem;
-                    // width: 60%;
-                    color: hsl(233, 8%, 62%);
-                }
-                &-btn{
-                    width: 15rem;
-                }
-            }
-            .secondDv{
-                width: 60%;
-                border: 1px solid orange;
-                overflow: hidden;
-                background-image: url(../images/bg-intro-desktop.svg);
-                background-position:16rem -12.5rem;
-                background-size: 100vh;
-                background-repeat: no-repeat;
-        
-                img{
-                    // height:auto;
-                    width: 70%;
-                    float: right;
-                    margin-right: -6rem;
-                    margin-top: -9rem;
-                    overflow: hidden;
-                }
-            }
-        }
-    }
+  }
 }

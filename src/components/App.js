@@ -33,8 +33,8 @@ function App() {
         <div className="firstDv">
           <h1>Next generation digital banking</h1>
           <p>
-            Take your financila life online. Your Easybank account will be a one
-            stop-shop for spending saving. budgeting, investing and much more.
+            Take your financila life online. Your Easybank<br/> account will be a one
+            stop-shop for spending saving.<br/> budgeting, investing and much more.
           </p>
           <a className="btn firstDv-btn" href="#">
             Request Invite

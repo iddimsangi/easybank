@@ -1,0 +1,30 @@
+.App{
+
+    &--nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+        &-logo{
+
+        }
+        &-navs{
+            li{
+                display: inline-block;
+                margin-left: 2rem;
+                a{font-size: 1.4rem;}
+
+            }
+
+        }
+        &-btn{
+            // border: 1px solid #50CF70;
+            color: hsl(0, 0%, 100%);
+            padding: 1rem 2rem;
+            border-radius: 20rem;
+            // background-color:#50CF70;
+            background: linear-gradient(127deg,#27b34a,  hsl(192, 97%, 56%));
+        }
+    }
+}

@@ -5,6 +5,8 @@ import instagram from "../images/icon-instagram.svg";
 import youtube from "../images/icon-youtube.svg";
 import pinrest from "../images/icon-pinterest.svg";
 import phone from "../images/image-mockups.png";
+import Whycomponent from "./Whycomponent/Whycomponent";
+import Latestarticle from "./Latestarticle/Latestarticle";
 import "./App.scss";
 
 function App() {
@@ -49,6 +51,12 @@ function App() {
           <img src={phone} alt="phone" />
         </div>
       </header>
+      <section className="App--main--WhyChoose">
+      <Whycomponent/>
+      </section>
+      <section className="App--main--LatestArticle">
+      <Latestarticle/>
+      </section>
       </main>
       <footer className="App--footer">
         <div className="App--footer--container1">

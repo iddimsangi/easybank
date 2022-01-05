@@ -109,6 +109,12 @@
         }
       }
     }
+    &--WhyChoose{
+      border: 1px solid red;
+    }
+    &--LatestArticle{
+      border: 1px solid orange;
+    }
   }
   &--footer{
       background-color: #342E50;
@@ -127,9 +133,9 @@
             li{
                 display: inline-block;
                 margin-left: 1rem;
-                a{
-                    
-                }
+                // a{
+                   
+                // }
             }
         }
       }
@@ -171,7 +177,7 @@
             &:hover,
             &:active {
               background: linear-gradient(
-                #66d682e1,
+                #70d389da,
                 hsla(192, 97%, 56%, 0.719)
               );
             }

@@ -11,9 +11,11 @@ import openApi from "../../images/icon-api.svg"
 function Whycomponent() {
     return (
         <div className="whyContainer">
-            <h1 className="whyContainer-heading">Why choose Easybank?
-            <span>We leverage Open Banking to turn your bank account into your financial hub. Control your financial like never before.</span>
-            </h1>
+            <div className="whyContainer-heading">
+            <h1>Why choose Easybank? </h1>
+            <span>We leverage Open Banking to turn your bank account into your financial hub.<br/> Control your financial like never before.</span>
+            </div>
+          
             <div className="whyContainer-body">
                 <div className="whyContainer-body--box">
                     <img src={online} alt=""/>

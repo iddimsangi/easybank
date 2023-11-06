@@ -1,5 +1,6 @@
 .App {
   width:100vw;
+  max-width: 1854px;
   .btn {
     color: hsl(0, 0%, 100%);
     padding: 1rem 2rem;
@@ -182,7 +183,7 @@
         justify-content: center;
         align-items: center;
         h1 {
-          font-size: 4.5rem;
+          font-size: 3.5rem;
           font-weight: 300;
           margin-bottom: 2rem;
         }
@@ -201,7 +202,7 @@
       }
       .secondDv {
         width: 100%;
-        background-position:-12rem -6rem;
+        background-position:left -10rem top -15rem;
         img {
           width:100%;
           float: right;
@@ -279,6 +280,28 @@
         &:active {
           background: linear-gradient(#70d389da, hsla(192, 97%, 56%, 0.719));
         }
+      }
+    }
+  }
+  @media(max-width:768px) {
+    &--footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      &--container2{
+      padding: .5rem;
+      }
+      &--container3{
+      padding: .5rem;
+      }
+      &--container4{
+      padding: .5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       }
     }
   }

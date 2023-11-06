@@ -1,4 +1,4 @@
-import logo from "../../images/logo.svg";
+import logo from "../../images/whiteEasyLogo.png";
 import twitter from "../../images/icon-twitter.svg";
 import facebook from "../../images/icon-facebook.svg";
 import instagram from "../../images/icon-instagram.svg";

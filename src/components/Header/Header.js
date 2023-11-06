@@ -1,11 +1,14 @@
 import logo from "../../images/logo.svg";
 import humberIcon from "../../images/icon-hamburger.svg";
 import closeIcon from "../../images/icon-close.svg";
-function Header() {
+function Header({ isClosed, setIsClosed }) {
+  const toggleClose = () => {
+    setIsClosed(!isClosed);
+  };
   return (
     <nav className="App--nav">
       <img src={logo} alt="logo" className="App--nav-logo" />
-      <ul className="App--nav-navs">
+      <ul className={isClosed ? "App--nav-drop" : "App--nav-navs"}>
         <li>
           <a href="#">Home</a>
         </li>
@@ -25,8 +28,8 @@ function Header() {
       <a href="#" className="btn App--nav-btn reqBtn">
         Request Invite
       </a>
-      <a href="#" className="hamburger-menu">
-        <img src={humberIcon} alt="humberger" />
+      <a href="#" className="hamburger-menu" onClick={toggleClose}>
+        <img src={isClosed ? closeIcon : humberIcon} alt="humberger" />
       </a>
     </nav>
   );

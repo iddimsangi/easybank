@@ -16,6 +16,7 @@
     align-items: center;
     // position: sticky;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    position: relative;
     &-logo {
     }
     // Define the default styles for desktop view
@@ -56,6 +57,58 @@
       a {
         padding: 1rem 2rem;
         border-bottom: none;
+
+        &:hover,
+        &:active {
+          background-color: #27b34a;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+&-drop {
+  display: none;
+  li {
+    a {
+      &:link,
+      &:visited {
+        font-size: 1.4rem;
+        transition: all 0.4s;
+        padding-bottom: 2.5rem;
+        border-bottom: 3px solid transparent;
+      }
+      &:hover,
+      &:active {
+        border-bottom: 3px solid #27b34a;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    // Styles for tablet view
+    position: absolute;
+    margin-top: 2rem;
+    top:5.5rem;
+    left:10%;
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80%;
+    display: block; // Hide the list by default
+    text-align: center;
+    z-index: 1000;
+
+    li {
+      display: block;
+      margin: 0;
+      padding: 2rem;
+
+      a {
+        padding: 1rem 2rem;
+        border-bottom: none;
+        cursor: pointer;
 
         &:hover,
         &:active {

@@ -68,6 +68,12 @@
 }
 
 // Styles for the hamburger menu button
+.reqBtn{
+  display: block;
+  @media(max-width:768px) {
+    display: none;
+  }
+}
 .hamburger-menu {
   display: none; // Hide by default on desktop
   cursor: pointer;

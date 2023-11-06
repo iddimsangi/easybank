@@ -1,4 +1,6 @@
 import logo from "../../images/logo.svg";
+import humberIcon from "../../images/icon-hamburger.svg";
+import closeIcon from "../../images/icon-close.svg";
 function Header() {
   return (
     <nav className="App--nav">
@@ -20,8 +22,11 @@ function Header() {
           <a href="#">Careers</a>
         </li>
       </ul>
-      <a href="#" className="btn App--nav-btn">
+      <a href="#" className="btn App--nav-btn reqBtn">
         Request Invite
+      </a>
+      <a href="#" className="hamburger-menu">
+        <img src={humberIcon} alt="humberger" />
       </a>
     </nav>
   );

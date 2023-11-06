@@ -4,10 +4,6 @@ import online from "../../images/icon-online.svg"
 import budget from "../../images/icon-budgeting.svg"
 import onboard from "../../images/icon-onboarding.svg"
 import openApi from "../../images/icon-api.svg"
-// import comflett from "../../images/"
-// import  from "../../images/"
-// import  from "../../images/"
-// import  from "../../images/"
 function Whycomponent() {
     return (
         <div className="whyContainer">

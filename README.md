@@ -42,37 +42,20 @@ Users should be able to:
 ## My process
 Learning and practicing more.
 ### Built with
-
-- Tailwind CSS
-- Flexbox
+- Sass
 - Mobile-first workflow
 - React Hooks
 
 ### What I learned
 Here are the key learnings from this project:
 
-1. **React Fundamentals:** I gained a strong understanding of React, including components, state management, and routing using `react-router-dom`.
-
-2. **API Integration:** I learned how to fetch and integrate data from external APIs into your React application.
-
-3. **Conditional Rendering:** I mastered conditional rendering to display content based on different states or routes, such as filtering and navigating.
-
-4. **Dark/Light Mode:** I implemented a dark/light mode toggle using state management and dynamic class names.
-
-5. **Search Functionality:** I implemented a search feature to filter and display specific data based on user input.
-
-6. **Route Navigation:** I used React Router to navigate between different pages in your application.
-
-7. **Project Structure:** I organized your project into components and modules for a maintainable and scalable codebase.
-
-8. **UI/UX Design:** I improved My skills in creating a user-friendly and responsive user interface.
 
 Overall, I developed a full-fledged React application, incorporating various key concepts and best practices to create a functional and visually appealing project.
 
 
 ### Continued development
 
-I will continue to practice using Tailwind CSS with React, and my upcoming projects will involve data fetching through APIs while implementing designs using Tailwind CSS.
+I will continue to practice using Sass CSS with React, and my upcoming projects will involve data fetching through APIs while implementing designs using Tailwind CSS.
 
 ### Useful resources
 

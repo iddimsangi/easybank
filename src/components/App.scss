@@ -15,6 +15,7 @@
     padding: 2rem;
     align-items: center;
     // position: sticky;
+    // z-index: 9999;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     position: relative;
     &-logo {
@@ -60,7 +61,7 @@
 
         &:hover,
         &:active {
-          background-color: #27b34a;
+          border-bottom: 3px solid #27b34a;
           color: #fff;
         }
       }
@@ -112,8 +113,7 @@
 
         &:hover,
         &:active {
-          background-color: #27b34a;
-          color: #fff;
+          border-bottom: 3px solid #27b34a;
         }
       }
     }

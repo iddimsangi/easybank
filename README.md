@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/iddimsangi/rest-countries-api-project)
-- Live Site URL: [Add live site URL here](https://countries-api-prj.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/iddimsangi/easybank)
+- Live Site URL: [Add live site URL here](https://easybanking-prj.netlify.app/)
 
 ## My process
 Learning and practicing more.

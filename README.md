@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/iddimsangi/rest-countries-api-project/blob/master/src/images/design/desktop-design-home-dark.jpg)
+![](https://github.com/iddimsangi/easybank/blob/master/src/images/Design.jpg)
 
 ### Links
 

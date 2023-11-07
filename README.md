@@ -1,7 +1,6 @@
-# Frontend Mentor - REST Countries API with color theme switcher challenge on Frontend Mentor
+# Frontend Mentor - Easybank landing page
 
-
-This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Design preview for the Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -87,5 +86,4 @@ I will continue to practice using Tailwind CSS with React, and my upcoming proje
 
 
 ## Acknowledgments
-I'd like to express my gratitude to the YouTube channel 'Code with Mano' (https://youtu.be/XV5tp-N_z9s) for providing a highly informative and clear video tutorial that helped me successfully design my toggle switch using Tailwind CSS.
 

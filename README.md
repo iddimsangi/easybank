@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Frontend Mentor - REST Countries API with color theme switcher challenge on Frontend Mentor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+### The challenge
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Toggle the color scheme between light and dark mode *(optional)*
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://github.com/iddimsangi/rest-countries-api-project/blob/master/src/images/design/desktop-design-home-dark.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Solution URL: [Add solution URL here](https://github.com/iddimsangi/rest-countries-api-project)
+- Live Site URL: [Add live site URL here](https://countries-api-prj.netlify.app/)
 
-### `npm run eject`
+## My process
+Learning and practicing more.
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Tailwind CSS
+- Flexbox
+- Mobile-first workflow
+- React Hooks
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
+Here are the key learnings from this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **React Fundamentals:** I gained a strong understanding of React, including components, state management, and routing using `react-router-dom`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **API Integration:** I learned how to fetch and integrate data from external APIs into your React application.
 
-## Learn More
+3. **Conditional Rendering:** I mastered conditional rendering to display content based on different states or routes, such as filtering and navigating.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Dark/Light Mode:** I implemented a dark/light mode toggle using state management and dynamic class names.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. **Search Functionality:** I implemented a search feature to filter and display specific data based on user input.
 
-### Code Splitting
+6. **Route Navigation:** I used React Router to navigate between different pages in your application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+7. **Project Structure:** I organized your project into components and modules for a maintainable and scalable codebase.
 
-### Analyzing the Bundle Size
+8. **UI/UX Design:** I improved My skills in creating a user-friendly and responsive user interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Overall, I developed a full-fledged React application, incorporating various key concepts and best practices to create a functional and visually appealing project.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Continued development
 
-### Advanced Configuration
+I will continue to practice using Tailwind CSS with React, and my upcoming projects will involve data fetching through APIs while implementing designs using Tailwind CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Useful resources
 
-### Deployment
+- [Tailwindcss documentation](https://tailwindcss.com/) - This helped me for buiding,guide and read all css clases reason. I really liked this pattern and will use it going forward.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+- Website - [iddimsangi](https://iddimsangi.netlify.app)
+- Frontend Mentor - [@iddimsangi](https://www.frontendmentor.io/profile/iddimsangi)
+- Twitter - [@iddi_a](https://twitter.com/iddi_a)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Acknowledgments
+I'd like to express my gratitude to the YouTube channel 'Code with Mano' (https://youtu.be/XV5tp-N_z9s) for providing a highly informative and clear video tutorial that helped me successfully design my toggle switch using Tailwind CSS.
+
